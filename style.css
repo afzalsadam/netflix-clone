@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+body{
+    background-color: black;
+    color: white;
+    font-family:"Poppins",sans-serif;
+}
+.navbar
+{
+    position:absolute;
+    top: 0px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+    z-index: 10;
+
+}
+.navbar_netflix
+{
+    height: 100%;
+    width: 125px;
+}
+.navbar_nav_item
+{
+  display: flex;
+  gap:10px;  
+}
+.nflxlogo
+{
+width: 100%;
+height: 100%;
+}
+
+.language_drop_down
+{
+    background:transparent;
+    border:none;
+    color: white;
+
+}
+
+.dropdown_container{
+    border: 1px solid white;
+    padding: 0.4rem;
+    border-radius:4px;
+    background-color: #00000066;
+}
+.signin_button
+{
+    border: 1px solid rgb(236, 43, 9);
+    padding: 0.25em 0.5rem;
+    border-radius:4px;
+    background-color: rgb(242, 43, 8);
+    color:white ;
+    height: 35px;
+    width: 100px;
+}
+.hero_bg_img_cont
+{
+    height:100%;
+    width: 100%;
+}
+.hero_bg_img
+{
+    width: 100%;
+    height:100%;
+    object-fit:cover;
+
+}
+.hero_overlay_image
+{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.7);
+    
+}
+.hero_card
+{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero_tittle
+{
+    font-weight: 600;
+    font-size: 3rem;
+
+}
+.hero_Subtittle,hero_desc
+{
+font-weight: 400;
+font-size: 1.3rem;
+}
+
+.email{
+    width:450px;
+    height: 60px;
+    background: transparent;
+    padding: 0.25rem;
+    border-radius:3px;
+    border-color:rgb(243, 15, 15);
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+.submitt_button
+{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+.get_started
+{
+    width:120px;
+    height: 60px;
+    color: rgb(241, 10, 10);
+    padding: 0.25rem;
+    border-radius:3px;
+    background-color:rgb(202, 6, 6);
+    color: rgb(241, 237, 237);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.card
+{
+    position: absolute;
+    top:65%;
+    left:30%;
+    text-align: center;
+}
